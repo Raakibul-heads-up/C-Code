@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    char source[1000],destination[1000];
+
+    printf("Input a string :\n");
+    gets(source);
+
+    strcpy(destination,source);
+
+    printf(" Source  string :%s\n",source);
+
+    printf("Destination string :%s\n",destination);
+
+    printf("\n\n");
+
+    return main();
+
+}
